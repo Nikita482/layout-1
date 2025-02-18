@@ -8,24 +8,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
 </head>
 <body>
     <header class="header">
-        <button class="header__btn">
-            <img class="header__icon header__icon--size1" src="image/header/image-1.png" alt="icon">
-        </button>
+        <div class="header__tablet-left">
+            <button class="header__btn">
+                <img class="header__icon header__icon--size1" src="image/header/image-1.png" alt="icon">
+            </button>
 
-        <img src="image/header/image-2.png" alt="">
+            <div class="header__line header__line--tablet"></div>
 
-        <div class="header__line"></div>
+            <img src="image/header/image-2.png" alt="image">
+        </div>
 
-        <button class="header__btn">
-            <img class="header__icon header__icon--size2" src="image/header/image-3.png" alt="icon">
-        </button>
+        <div class="header__tablet-right">   
+            <button class="header__btn header__btn--tablet">
+                    <img class="header__icon header__icon--size4" src="image/header/image-5.png" alt="icon"> 
+            </button>
 
-        <button class="header__btn">
-            <img class="header__icon header__icon--size3" src="image/header/image-4.png" alt="icon">
-        </button>
+            <button class="header__btn header__btn--tablet">
+                    <i class="fas fa-comment header__message"></i>
+            </button>
+
+            <button class="header__btn header__btn--tablet">
+                    <img class="header__icon header__icon--size5" src="image/header/image-7.png" alt="icon"> 
+            </button>
+
+            <div class="header__line"></div>
+
+            <button class="header__btn">
+                <img class="header__icon header__icon--size2" src="image/header/image-3.png" alt="icon">
+            </button>
+
+            <button class="header__btn">
+                <img class="header__icon header__icon--size3" src="image/header/image-4.png" alt="icon">
+            </button>
+        </div>  
     </header>
 
     <main class="main">
@@ -46,19 +67,22 @@
             <div class="main__mask"></div>
         </section>
 
-        <section class="main__text">
-            <p class="main__description">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-
-            <div class="main__info">
-                <div class="main__icon">
-                    <img src="image/main/icon.png" alt="icon">
+        <section class="main__tablet">
+            <section class="main__text">
+                <p class="main__description">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                <p class="main__description main__description--margin">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
+    
+                <div class="main__info">
+                    <div class="main__icon">
+                        <img src="image/main/icon.png" alt="icon">
+                    </div>
+    
+                    <button class="main__read">Читать далее</button>
                 </div>
-
-                <button class="main__read">Читать далее</button>
-            </div>
+            </section>
+    
+            <img class="main__logo" src="image/main/logo.png" alt="logo">
         </section>
-
-        <img class="main__logo" src="image/main/logo.png" alt="">
     </main>
 </body>
 </html>
