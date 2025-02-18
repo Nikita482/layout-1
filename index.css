@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.header{
+    width: 100vw;
+    height: 88px;
+    border-bottom: 1px solid #D9FFF5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+}
+
+.header__btn{
+    width: 40px;
+    aspect-ratio: 1 / 1;
+    background-color: #FF3E79;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__line{
+    width: 2px;
+    height: 32px;
+    background-color: #EAEAEA;
+}
+
+.header__icon{
+    width: 20px;
+    aspect-ratio: 1 / 1;
+}
+
+.header__icon--size1{
+    width: 18px;
+    height: 16px;
+}
+
+.header__icon--size2{
+    width: 20px;
+    height: 20px;
+}
+
+.header__icon--size3{
+    width: 16px;
+    height: 20px;
+}
+
+
+
+.main{
+    width: 100vw;
+    height: auto;
+    background-color: #F8F8F8;
+}
+
+.main__name{
+    height: 40px;
+    border-left: 4px solid #41F6D7;
+    padding: 0 16px 0 12px;
+    font-size: 28px;
+    box-sizing: border-box;
+}
+
+.main__wrapper{
+    background-color: red;
+    position: relative;
+}
+
+.main__navigation{
+    display: flex;
+    overflow-x: auto;
+    padding: 24px 0 0 16px;
+}
+
+.main__mask{
+    width: 24px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background: linear-gradient(to right, #F8F8F8 0.01%, #F8F8F800 100%);
+    background-color: red;
+    pointer-events: none;
+}
+
+.main__btn{
+    min-width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: #F8F8F8;
+    font-size: 16px;
+}
+
+.main__btn--focus{
+    border: 2px solid #B8FFEC;
+    background-color: #FFFFFF;
+}
+
+.main__text{
+    width: 100%;
+    height: auto;
+    padding: 24px 16px 0 16px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+
+.main__info{
+    display: flex;
+    align-items: center;
+}
+
+.main__icon{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__read{
+    width: auto;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    border: none;
+    background-color: transparent;
+}
+
+.main__logo{
+    margin: 16px 0 35px 0;
+}
+
+
+
+.height{
+    width: 100vw;
+    height: 1000px;
+}
+
+
+
+
+
+
