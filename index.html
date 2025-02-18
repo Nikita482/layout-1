@@ -28,21 +28,26 @@
         </button>
     </header>
 
-    <!-- сделать замутнее цвета справа  -->
     <main class="main">
-        <h1 class="main__name">Услуги и сервисы</h1>
+        <div class="main__header">
+            <span class="main__line"></span>
+            <h1 class="main__name">Услуги и сервисы</h1>
+        </div>
 
-        <nav class="main__navigation">
-        <!-- <div class="main__mask"></div> -->
-            <button class="main__btn main__btn--focus">Ремонтируемые устройства</button>
-            <button class="main__btn">Ремонтируемые бренды</button>
-            <button class="main__btn">Цены на услуги</button>
-            <button class="main__btn">Адреса сервисных центров</button>
-            <button class="main__btn">Специальные цены</button>
-        </nav>
+        <section class="main__navigation">
+            <nav class="main__box-nav">
+                <button class="main__btn main__btn--focus">Ремонтируемые устройства</button>
+                <button class="main__btn">Ремонтируемые бренды</button>
+                <button class="main__btn">Цены на услуги</button>
+                <button class="main__btn">Адреса сервисных центров</button>
+                <button class="main__btn">Специальные цены</button>
+            </nav>
+            
+            <div class="main__mask"></div>
+        </section>
 
         <section class="main__text">
-            <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+            <p class="main__description">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
 
             <div class="main__info">
                 <div class="main__icon">
@@ -55,7 +60,5 @@
 
         <img class="main__logo" src="image/main/logo.png" alt="">
     </main>
-    
-    <div class="height"></div>
 </body>
 </html>

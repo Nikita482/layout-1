@@ -61,23 +61,38 @@
     background-color: #F8F8F8;
 }
 
-.main__name{
+.main__header{
     height: 40px;
-    border-left: 4px solid #41F6D7;
-    padding: 0 16px 0 12px;
+    padding: 24px 16px 24px 0;
+    display: flex;
+}
+
+.main__line{
+    width: 4px;
+    height: 40px;
+    background-color: #41F6D7;
+    transform: rotate(-180deg);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 12px;
+}
+
+.main__name{
     font-size: 28px;
-    box-sizing: border-box;
 }
 
 .main__wrapper{
-    background-color: red;
     position: relative;
 }
 
 .main__navigation{
+    padding-left: 16px;
+    position: relative;
+}
+
+.main__box-nav{
     display: flex;
     overflow-x: auto;
-    padding: 24px 0 0 16px;
 }
 
 .main__mask{
@@ -85,18 +100,21 @@
     height: 100%;
     position: absolute;
     right: 0;
-    background: linear-gradient(to right, #F8F8F8 0.01%, #F8F8F800 100%);
-    background-color: red;
+    top: 0;
+    background: linear-gradient(to left, #F8F8F8 0.01%, #F8F8F800 100%);
     pointer-events: none;
 }
 
 .main__btn{
-    min-width: 250px;
+    width: auto;
     height: 40px;
     border-radius: 6px;
     border: none;
     background-color: #F8F8F8;
     font-size: 16px;
+    white-space: nowrap;
+    padding: 8px 10px;
+    color: #7E7E82;
 }
 
 .main__btn--focus{
@@ -109,6 +127,9 @@
     height: auto;
     padding: 24px 16px 0 16px;
     box-sizing: border-box;
+}
+
+.main__description{
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;
@@ -117,6 +138,7 @@
 .main__info{
     display: flex;
     align-items: center;
+    padding-top: 16px;
 }
 
 .main__icon{
@@ -141,16 +163,3 @@
 .main__logo{
     margin: 16px 0 35px 0;
 }
-
-
-
-.height{
-    width: 100vw;
-    height: 1000px;
-}
-
-
-
-
-
-
